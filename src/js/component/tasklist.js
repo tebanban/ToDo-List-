@@ -1,13 +1,11 @@
 import React from "react";
-import Checkbox from "./checkbox";
+import { Checkbox } from "./checkbox";
 
-const TaskList = () => {
+export function TaskList() {
 	return (
 		<div>
 			TaskList!
 			<Checkbox />
 		</div>
 	);
-};
-
-export default TaskList;
+}

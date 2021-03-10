@@ -1,7 +1,5 @@
 import React from "react";
 
-const FormTodo = () => {
+export function FormTodo() {
 	return <div>FormTodo!</div>;
-};
-
-export default FormTodo;
+}

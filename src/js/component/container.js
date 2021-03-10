@@ -1,15 +1,13 @@
 import React from "react";
-import TaskList from "./tasklist";
-import FromTodo from "./formtodo"
+import { TaskList } from "./tasklist";
+import { FormTodo } from "./formtodo";
 
-const Container = () => {
+export function Container() {
 	return (
 		<div>
-			Container!!!
+			<p>Container!!!</p>
 			<FormTodo />
 			<TaskList />
 		</div>
 	);
-};
-
-export default Container;
+}

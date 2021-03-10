@@ -1,7 +1,5 @@
 import React from "react";
 
-const Checkbox = () => {
+export function Checkbox() {
 	return <div>Checkbox!</div>;
-};
-
-export default Checkbox;
+}
